@@ -1,0 +1,8 @@
+Points coordinates : 
+Point #1 - 'A': [0;0]
+Point #2 - 'B': [3;7]
+Point #3 - 'C': [7;7]
+Point #4 - 'D': [7;0]
+The perimeter of the tetragon is 25.6158;
+The total area of the tetragon is 38.5;
+
