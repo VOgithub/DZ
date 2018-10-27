@@ -1,0 +1,18 @@
+For figure with a points coordinates : 
+
+
+
+Point 0: [0;-6]
+
+Point 1: [6;-5.333]
+
+Point 2: [3.78;0]
+
+Point 3: [0;0]
+
+
+
+The total area of the quad is 28.0794; 
+
+The perimeter of the quad is 21.5936;
+
