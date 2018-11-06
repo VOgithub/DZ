@@ -13,8 +13,8 @@ int main()
     #define sizeA 16
     #define sizeB 15
 
-    int arrA[sizeA]={1,3,4,9,10, 13,31,14,15,18, 19,22,15,16,17, 21};
-    int arrB[sizeB]={1,2,4,25,8, 11,23,25,26,33, 44};
+    int arrA[sizeA]={1,3,5,7,9, 11,13,15,17,19, 21,23,25,27,29, 31};
+    int arrB[sizeB]={2,4,6,8,10, 12,14,16,18,20, 22,24,26,28,30};
     int arrC[sizeB+sizeA] = {0};   //массив для совмещения, надо инициализировать хотя бы 1 элемент!!
 
     cout << "\n Array A  have elements are:";
@@ -82,8 +82,9 @@ int joinedArray(int A[],int A_size, int B[],int B_size, int C[])
             c++;
             j++;
     }
+ //      cout << c << endl;
        cout << "\n Array C now have elements are:";
-       for (int i=0; i<=c; i++)   cout <<" " << C[i];
+       for (int i=0; i<c; i++)   cout <<" " << C[i];
        cout << endl;
 
     return 0;
